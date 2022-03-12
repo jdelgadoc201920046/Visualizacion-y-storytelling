@@ -8,7 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Visualizacion y storytelling</title>
   </head>
   <body>
@@ -23,8 +26,8 @@
     
             <div class="col-md-10 px-0">
     
-                <h2 class="display-4 fst-italic">Visualización y Storytelling</h2>
-                <p class="lead my-3">Entendiendo los resultados Saber pro for all (2019-2020)</p>
+                <h2 class="display-4 fst-italic">¿Cómo impactan los factores socioeconómicos en los resultados del ICFES Saber 11?</h2>
+                <!-- <p class="lead my-3">Entendiendo los resultados Saber pro for all (2019-2020)</p> -->
             </div>
         </div>
 
@@ -39,88 +42,142 @@
                 <article class="blog-post">
                     <div class="row g-5">
                         <div class="col-md-10 px-0">
-                            <h2 class="blog-post-title">Contexto</h2>
+                            <h2 class="blog-post-title">Primero que todo ¿Qué es el ICFES?</h2>
 
                             <p>El ICFES se constituye como una institución gubernamental que ha tendido la mision de diseñar y administrar los exámenes de estado para evaluación del sistema de educación colombiana desde 1968. 
-                                Estas pruebas son estandarizadas y se aplican sobre la población que está culminando estudios de bachillerato.
+                                
                             </p>
+                            <p><b>Saber 11</b> es una pruebas de tipo estandarizada que se aplica sobre la población que está culminando estudios de bachillerato, en todos los colegios del territorio nacional. Se evalúan diferentes módulos como lo son matemáticas, lectura crítica, inglés y sociales.</p>
                             <p>El propósito de este sitio es poder observar la influencia de ciertos factores socieconomicos y demográficos sobre los resultados obtenidos por los estudiantes.
                                 Cabe resaltar que los datos mostrados en este estudio comprenden a los periodos académicos 2019 y 2020
                             </p>
+
                         </div>  
                         <div class="col-md-2">
                             <img class="d-block mx-auto mb-8" src="contexto.svg" alt="" width="100%" height="100%">
                         </div>  
                     </div>
-
-
                 </article>
             </div>
+            <div class="col-md-12">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/BK5wtV_oLYQ" title="Icfes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="text-center"> <em>fuente: canal de youtube icfes.gov</em></p>
+            </div>
+            
+
         </div>
 
 <br><hr><br>
 
         <div class="row g-5">
+            <h2 class="blog-post-title text-center">¿El contexto demográfico determina los resultados de la prueba?</h2>
+
+            <div class="col-md-8">
             <article class="blog-post">
-                <h2 class="blog-post-title">Condiciones socioeconómicas</h2>
-        
-                <p>A continuación se presentan los resultados relacionados a género, estrato y bienes considerados estratégicos para el desarrollo educativo de la población.</p>
-                
+                    <p>A continuación se presentan los resultados relacionados a género, estrato y bienes considerados estratégicos para el desarrollo educativo de la población.</p>
+                    <ul>
+                        <li>Se puede evidenciar que los estudiantes de Estrato 4 obtuvieron en promedio el mejor resultado global</li>
+                        <br>
+                        <li>Segmentando los resultados por departamento, Chocó y Vaupés tienen la mayor oportunidad de mejora, mientras que Santander obtuvo los puntajes más altos</li>
+                        <br>
+                        <li>Interactuando con el dashboard, es posible observar que el desempeño de los colegios de naturalez oficial fue menor que las instituciones privadas</li>
+                        <br>
+                        <li>Lo anterior se ve aún más marcado en aquellos estudiantes que no tienen acceso a un computador o internet, ya que tienen los resultados más bajos, esto evidencia hoy en día estos bienes y servicios deberian ser prioritarios para el desarrollo académico de los estudiantes</li>
+                    </ul>
+                </div>
+
+
             </article>  
+
+            <div class="col-md-4">
+                <img  src="demografico1.jpeg" alt="" width="340" height="100%">
+            </div>
 
             <div class="col-md-12">
                 <div class="h-100 p-5 text-white bg-dark rounded-3">
-                 <h4 class="text-center">¿Los factores socioeconómicos influyen en los resultados de los exámenes?</h4>
+                 <!-- <h4 class="text-center">¿Los factores socioeconómicos influyen en los resultados de los exámenes?</h4> -->
+                 <p class="text-center">Recuerda que el tablero es interactivo y que independientemente de los filtros aplicados podrás ver resultados segmentados para cada género</p>
                  <br>
-                  <iframe title="proyecto Final Storytelling - Demografico" width="100%" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiOGM0YzFkYjEtNTYxMi00NmRmLWJiM2MtMTE4Y2QyZmQ0MjZiIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9" frameborder="0" allowFullScreen="true">
+                 <iframe title="proyecto Final Storytelling" width="100%" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiOGM0YzFkYjEtNTYxMi00NmRmLWJiM2MtMTE4Y2QyZmQ0MjZiIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9&pageName=ReportSection57810635d0a8b4073f24" frameborder="0" allowFullScreen="true"></iframe>
 
                   </iframe>
                 </div>
             </div>
         </div>
 
-        <hr>
+        <br> <hr> <br>
 
         <div class="row g-5">
-            <article class="blog-post">
-                <h2 class="blog-post-title">Características del Colegio</h2>
-        
-                <div class="row g-5">
-                    <div class="col-md-10">
-                        <p>En este apartado se estudian datos correspondientes a la institución educativa, como la naturaleza del colegio, ubicación (rural o urbana) duración de la jornada y un mapa de polígonos para ver el comportamiento del puntaje según los filtros seleccionados</p>
-                    </div>
-                    <div class="col-md-2">
-                        <img class="d-block mx-auto mb-8" src="modulo2.svg" alt="" width="124" height="96">
-                    </div>  
+           
+                <h2 class="blog-post-title text-center">Algunos hábitos y contexto familiar ¿cómo influyen?</h2>
+
+                <div class="col-md-4">
+                    <img  src="habitos1.jpeg" alt="" width="340" height="100%">
+                    <p class="text-secondary"> fuente: https://deconceptos.com/ciencias-sociales/habitos-de-estudio</p>
                 </div>
+
+                <div class="col-md-8">
+                    <article class="blog-post">
+                    <p>Indagando acerca de los aspectos laborales, hábitos de lectura y servicio de internet se encontró lo siguiente: </p>
+
+                    <ul>
+                        <li>Uno de los factores más relevantes es el nivel de escolaridad de los padres del estudiante, en cuanto mayor sean sus estudios mejor es el resultado obtenido por los estudiantes en las pruebas.</li>
+                        <br>
+                        <li>Definitivamente el acceso a la información influye de manera significativa en el desempeño académico, ya sea por medio de libros o por consulta en internet.</li>
+                        <br>
+                        <li>Aquellos estudiantes que manifiestan trabajar, ven comprometidos sus resultados académicos al obtener menores puntajes</li>
+                    </ul>
+                </article>  
+
+                </div>
+
+
+
                 
-            </article>  
 
             <div class="col-md-12">
                 <div class="h-100 p-5 text-white bg-dark rounded-3">
-                 <h4 class="text-center">¿Hay una relación significativa entre las características de un colegio y los puntajes obtenidos?</h4>
-                 <br>
-                 <iframe title="proyecto Final Storytelling - Demografico" width="100%" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiOGM0YzFkYjEtNTYxMi00NmRmLWJiM2MtMTE4Y2QyZmQ0MjZiIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9&pageName=ReportSectionceafd194cc8567e64916" frameborder="0" allowFullScreen="true">
+                 <h4 class="text-center"></h4>
+                 <iframe title="proyecto Final Storytelling - Demografico" width="100%" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiOGM0YzFkYjEtNTYxMi00NmRmLWJiM2MtMTE4Y2QyZmQ0MjZiIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9&pageName=ReportSectionada2364b5f12560fa2d6" frameborder="0" allowFullScreen="true">
 
                  </iframe>
                 </div>
             </div>
 
         </div>
-            
+
         <hr>
+
         <div class="row g-5">
-            <article class="blog-post">
-                <h2 class="blog-post-title">Otros aspectos a tener en cuenta</h2>
+                <h2 class="blog-post-title text-center">¿Qué tanto influencia las características del colegio?</h2>
         
-                <p>Adicionalmente se indaga sobre aspectos laborales, hábitos de lectura y servicio de internet, los resultados se muestran a continuación </p>
+                    <div class="col-md-8">
+                        <article class="blog-post">
+
+                        <p>En este apartado se estudian datos correspondientes a la institución educativa, como la naturaleza del colegio, ubicación (rural o urbana) o duración de la jornada, junto con histogramas del puntaje asociados al estrato socieconómico de los estudiantes.</p>
+                        <ul>
+                            <li>Se puede ver que una dínamica muy marcada en los colegios oficiales es tener jornada completa, por otra parte los no oficiales su jornada con mayor represetación es la de la mañana</li>
+                            <br>
+                            <li>El histograma nos muestra que los resultados estan más orientados hacia puntajes altos en colegios privados y que los estrato predominates en los oficiales son el 1 y el 2</li>
+                            <br>
+                            <li>Los colegios rulales solo están presentes en estratos 1, 2 y 3 (o no tienen estratificación)</li>
+                            <br>
+                            <li>Los colegios urbanos presentan una ventaja marcada (25 puntos en el resultado global) respecto a los rurales</li>
+                        </ul>
+                    </article>  
+
+                    </div>
+                    <div class="col-md-4">
+                        <img  src="colegio1.png" alt="" width="340" height="100%">
+                        <p class="text-secondary"> </p>
+                    </div>
                 
-            </article>  
 
             <div class="col-md-12">
                 <div class="h-100 p-5 text-white bg-dark rounded-3">
-                 <h4 class="text-center"></h4>
-                 <iframe title="proyecto Final Storytelling - Demografico" width="100%" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiOGM0YzFkYjEtNTYxMi00NmRmLWJiM2MtMTE4Y2QyZmQ0MjZiIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9&pageName=ReportSectionada2364b5f12560fa2d6" frameborder="0" allowFullScreen="true">
+                 <p class="text-center">Recuerda que el dashboard es interactivo</p>
+                 <br>
+                 <iframe title="proyecto Final Storytelling - Demografico" width="100%" height="720" src="https://app.powerbi.com/view?r=eyJrIjoiOGM0YzFkYjEtNTYxMi00NmRmLWJiM2MtMTE4Y2QyZmQ0MjZiIiwidCI6ImZhYmQwNDdjLWZmNDgtNDkyYS04YmJiLThmOThiOWZiOWNjYSIsImMiOjR9&pageName=ReportSectionceafd194cc8567e64916" frameborder="0" allowFullScreen="true">
 
                  </iframe>
                 </div>
